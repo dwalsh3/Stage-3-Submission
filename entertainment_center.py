@@ -16,6 +16,7 @@ inbruges = media.Movie("In Bruges",
                        "This film debut by the theater writer and director Martin McDonagh is an endlessly surprising, very dark, human comedy, with a plot that cannot be foreseen but only relished. Every once in a while you find a film like this, that seems to happen as it goes along, driven by the peculiarities of the characters.")
 
 
-
 movies = [apollo13, inbruges]
+
+# generate and open HTML file in new tab
 fresh_tomatoes.open_movies_page(movies)

@@ -1,6 +1,8 @@
 import webbrowser
 
 class Movie():
+    """This class provides a way to initialize movie variables (linking variable names with their
+    corresponding movies), and a way to show movie trailers referencing only the name of the movie rather than the youtube URL."""
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube, ebert_quote):
         self.title               = movie_title
         self.storyline           = movie_storyline
